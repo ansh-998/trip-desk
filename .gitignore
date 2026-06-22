@@ -52,4 +52,5 @@ supabase/.temp
 # Test coverage
 coverage/
 .nyc_output/
-DEPLOYMENT_CHECKLIST.md
+prod2.md
+prod.md
