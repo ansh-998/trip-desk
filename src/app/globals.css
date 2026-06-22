@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@theme {
+  /* Nomichi brand colors */
+  --color-brand: #D55D27;
+  --color-brand-dark: #A54316;
+  --color-rust: #D55D27;
+  --color-yellow: #FFFE00;
+  --color-ink: #1C1B1A;
+  --color-ink-muted: #5A5856;
+  --color-ink-light: #A4A19E;
+  --color-border: #D1B788;
+  --color-surface: #FFFBF5;
+  --color-surface-muted: #F8F3EA;
+  --color-surface-hover: #ECE3D3;
+  --color-cream: #FFFBF5;
+  --color-sand: #D1B788;
+  --color-olive: #45471D;
+  --font-sans: var(--font-poppins), system-ui, sans-serif;
+  --font-display: var(--font-display), system-ui, sans-serif;
+  --shadow-card: 0 4px 20px rgba(28, 27, 26, 0.05);
+  --shadow-search: 0 3px 12px rgba(28, 27, 26, 0.08);
+  --radius-card: 16px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-poppins), system-ui, sans-serif;
+    color: var(--color-ink);
+    background: var(--color-cream);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display), system-ui, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.dark {
+  --color-cream: #121110;
+  --color-surface: #1C1A19;
+  --color-surface-muted: #262422;
+  --color-surface-hover: #33302D;
+  --color-ink: #FFFBF5;
+  --color-ink-muted: #A4A19E;
+  --color-ink-light: #5A5856;
+  --color-border: #423B30;
+  --color-sand: #423B30;
+}

@@ -1,0 +1,55 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Next.js build output
+/.next/
+/out/
+/build/
+
+# Environment variables — never commit real secrets
+.env
+.env.local
+.env.*.local
+.env.production
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Vercel
+.vercel/
+vercel.json.local
+
+# TypeScript incremental build info
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Supabase local development artifacts (not needed in the repo)
+supabase/.branches
+supabase/.temp
+
+# Test coverage
+coverage/
+.nyc_output/
+DEPLOYMENT_CHECKLIST.md
