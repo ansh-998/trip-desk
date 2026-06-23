@@ -60,7 +60,7 @@ export default async function TravellerDashboardPage() {
         {!enquiries?.length ? (
           <Card variant="outline" className="border-dashed">
             <CardContent className="py-20 text-center">
-              <p className="text-ink/40 italic mb-6">You haven't submitted any enquiries yet.</p>
+              <p className="text-ink/40 italic mb-6">You haven&apos;t submitted any enquiries yet.</p>
               <Link href="/">
                 <Button>Explore Journeys</Button>
               </Link>
@@ -98,7 +98,7 @@ export default async function TravellerDashboardPage() {
                     <div className="mt-6 pt-6 border-t border-sand/10">
                       <p className="text-xs font-bold uppercase tracking-widest text-ink/30 mb-2">Your Vibe</p>
                       <p className="text-sm text-ink/70 italic leading-relaxed">
-                        "{enquiry.trip_feel}"
+                        &ldquo;{enquiry.trip_feel}&rdquo;
                       </p>
                     </div>
                   )}

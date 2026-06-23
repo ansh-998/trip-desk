@@ -54,7 +54,7 @@ export default function SignupPage() {
           </CardHeader>
           <CardContent className="space-y-4">
             <p className="text-ink/60">
-              We've sent a verification link to <strong>{email}</strong>. 
+              We&apos;ve sent a verification link to <strong>{email}</strong>. 
               Please confirm your email to start tracking your journeys.
             </p>
             <Link href="/login" className="block">

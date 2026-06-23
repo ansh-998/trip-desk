@@ -100,7 +100,7 @@ function LoginForm() {
             </form>
             
             <div className="mt-6 text-center text-sm">
-              <span className="text-ink/50">Don't have an account? </span>
+              <span className="text-ink/50">Don&apos;t have an account? </span>
               <Link href="/signup" className="font-bold text-rust hover:underline">
                 Sign Up
               </Link>
