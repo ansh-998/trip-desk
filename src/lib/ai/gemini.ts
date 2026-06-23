@@ -1,7 +1,7 @@
 // Thin wrapper around the Gemini REST API.
 // This file is server-only — the API key must never reach the browser.
 
-const GEMINI_MODEL = 'gemini-2.0-flash'
+const GEMINI_MODEL = 'gemini-2.5-flash-lite'
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`
 
 export class GeminiError extends Error {
