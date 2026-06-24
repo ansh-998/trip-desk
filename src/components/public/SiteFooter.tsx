@@ -10,7 +10,7 @@ const FOOTER_SECTIONS = [
     ],
   },
   {
-    title: 'Nomichi',
+    title: 'Trip Desk',
     links: [
       { label: 'About us', href: '#' },
       { label: 'How we travel', href: '#' },
@@ -53,8 +53,8 @@ export function SiteFooter() {
             <p className="text-sm text-ink-muted leading-relaxed">
               Questions about a journey?
               <br />
-              <a href="mailto:hello@nomichi.in" className="underline hover:text-ink">
-                hello@nomichi.in
+              <a href="mailto:hello@tripdesk.in" className="underline hover:text-ink">
+                hello@tripdesk.in
               </a>
             </p>
           </div>
@@ -62,7 +62,7 @@ export function SiteFooter() {
 
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 sm:flex-row">
           <p className="text-sm text-ink-muted">
-            &copy; {new Date().getFullYear()} Nomichi. Travel that finds you.
+            &copy; {new Date().getFullYear()} Trip Desk. Smart Travel CRM.
           </p>
           <div className="flex items-center gap-4 text-sm text-ink-muted">
             <span>English (IN)</span>

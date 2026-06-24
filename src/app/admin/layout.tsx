@@ -31,7 +31,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
       <AdminNav />
       <div className="flex-1 flex flex-col min-w-0">
         <header className="h-16 border-b border-sand/20 flex items-center justify-between px-8 bg-white/50 backdrop-blur-sm lg:hidden">
-          <span className="font-display font-bold text-rust tracking-tighter">NOMICHI</span>
+          <span className="font-display font-bold text-rust tracking-tighter">TRIP DESK</span>
           {/* Mobile menu button could go here if needed, but keeping it simple for now */}
         </header>
         <main className="flex-1 overflow-y-auto px-4 py-8 lg:px-12 lg:py-10">

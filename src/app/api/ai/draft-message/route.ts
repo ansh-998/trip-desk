@@ -1,10 +1,10 @@
 // POST /api/ai/draft-message — admin-only.
-// Generates a first WhatsApp outreach message for a lead, written in Nomichi's voice.
+// Generates a first WhatsApp outreach message for a lead, written in Trip Desk's voice.
 import { NextResponse } from 'next/server'
 import { requireAdminSession } from '@/lib/auth/require-admin'
 import { generateWithGemini, GeminiError } from '@/lib/ai/gemini'
 
-const SYSTEM_PROMPT = `You write the first WhatsApp message a Nomichi travel associate sends to a new lead.
+const SYSTEM_PROMPT = `You write the first WhatsApp message a Trip Desk travel associate sends to a new lead.
 
 Voice: warm, honest, specific, still. Second person. Short sentences.
 Never use exclamation marks or em-dashes.

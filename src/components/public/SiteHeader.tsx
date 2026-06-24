@@ -35,15 +35,13 @@ export function SiteHeader() {
           href="/"
           className="flex items-center gap-2 text-brand transition-opacity hover:opacity-80"
         >
-          <svg
-            viewBox="0 0 32 32"
-            className="h-8 w-8 fill-current"
-            aria-hidden
-          >
-            <path d="M16 2C9.373 2 4 7.373 4 14c0 7.5 12 16 12 16s12-8.5 12-16c0-6.627-5.373-12-12-12zm0 16a4 4 0 110-8 4 4 0 010 8z" />
-          </svg>
+          <img
+            src="/images/logo.png"
+            alt="Trip Desk"
+            className="h-8 w-8 rounded"
+          />
           <span className="hidden text-xl font-bold tracking-tight text-brand sm:block font-display">
-            nomichi
+            Trip Desk
           </span>
         </Link>
 

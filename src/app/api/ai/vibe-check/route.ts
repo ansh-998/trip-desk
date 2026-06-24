@@ -1,15 +1,15 @@
 // POST /api/ai/vibe-check — admin-only.
-// Assesses how well a lead's travel style fits Nomichi's slow-travel philosophy.
+// Assesses how well a lead's travel style fits the company's slow-travel philosophy.
 import { NextResponse } from 'next/server'
 import { requireAdminSession } from '@/lib/auth/require-admin'
 import { generateWithGemini, GeminiError, parseJsonFromModel } from '@/lib/ai/gemini'
 
-const SYSTEM_PROMPT = `You are a travel expert at Nomichi, a company that runs slow-paced, small group journeys.
+const SYSTEM_PROMPT = `You are a travel expert at Trip Desk, a company that runs slow-paced, small group journeys.
 
 Based on the traveller's enquiry, assess if they are a good fit for this philosophy.
 
-Nomichi vibe: slow, honest, specific, still, deep connection, concrete details.
-NOT Nomichi: checklist travel, "must-see" rushing, luxury-only, "elevate/embark" fluff.
+Trip Desk vibe: slow, honest, specific, still, deep connection, concrete details.
+NOT Trip Desk: checklist travel, "must-see" rushing, luxury-only, "elevate/embark" fluff.
 
 This is a suggestion for the sales associate only. It must never be treated as an automatic rejection.
 

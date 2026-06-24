@@ -53,7 +53,7 @@ function LoginForm() {
     <main className="flex min-h-screen flex-col items-center justify-center bg-cream px-4 py-12">
       <div className="w-full max-w-md">
         <Link href="/" className="font-display font-bold text-2xl text-rust tracking-tighter mb-8 block text-center">
-          NOMICHI
+          TRIP DESK
         </Link>
         
         <Card>

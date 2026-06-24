@@ -15,7 +15,7 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: 'Nomichi — Travel that finds you',
+  title: 'Trip Desk - Smart Travel CRM',
   description:
     'Small-group journeys across India. Slow pace, real places, run by people who have walked these paths.',
 }

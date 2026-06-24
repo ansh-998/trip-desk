@@ -15,7 +15,7 @@ export type PipelineStage = (typeof PIPELINE_STAGES)[number]
 export const GROUP_TYPES = ['solo', 'friends', 'couple', 'family'] as const
 export type GroupType = (typeof GROUP_TYPES)[number]
 
-export const NOMICHI_COLORS = {
+export const BRAND_COLORS = {
   rust: '#D55D27',
   yellow: '#FFFE00',
   ink: '#1C1B1A',

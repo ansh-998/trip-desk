@@ -1,4 +1,4 @@
-# Contributing to Nomichi Trip Desk
+# Contributing to Trip Desk
 
 Thank you for contributing! Please follow these guidelines to ensure code quality and consistency.
 
@@ -10,8 +10,8 @@ Be respectful, inclusive, and professional in all interactions.
 
 ### 1. Fork and Clone
 ```bash
-git clone https://github.com/your-username/nomichi-trip-desk.git
-cd nomichi-trip-desk
+git clone https://github.com/your-username/trip-desk.git
+cd trip-desk
 npm install
 ```
 
@@ -356,4 +356,4 @@ By contributing, you agree your code will be licensed under the same license as 
 
 ---
 
-Thank you for contributing to Nomichi Trip Desk! 🚀
+Thank you for contributing to Trip Desk! 🚀

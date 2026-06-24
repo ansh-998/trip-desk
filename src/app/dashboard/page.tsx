@@ -40,7 +40,7 @@ export default async function TravellerDashboardPage() {
       <header className="sticky top-0 z-50 w-full border-b border-sand/20 bg-cream/80 backdrop-blur-md">
         <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
           <Link href="/" className="font-display font-bold text-xl text-rust tracking-tighter">
-            NOMICHI
+            TRIP DESK
           </Link>
           <div className="flex items-center gap-4">
             <span className="text-xs text-ink/50 hidden sm:block">Welcome, {user.email}</span>

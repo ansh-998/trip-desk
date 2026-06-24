@@ -1,6 +1,6 @@
-# Nomichi Trip Desk
+# Trip Desk
 
-A full-stack CRM and public booking portal for Nomichi — a small-group travel company running slow-paced journeys across India. The public site lets travellers discover and enquire about trips. The admin panel helps the sales team track leads, manage properties, and move people from first enquiry to confirmed seat.
+A full-stack CRM and public booking portal for small-group travel companies running slow-paced journeys. The public site lets travellers discover and enquire about trips. The admin panel helps the sales team track leads, manage properties, and move people from first enquiry to confirmed seat.
 
 ## What's inside
 
@@ -17,9 +17,9 @@ A full-stack CRM and public booking portal for Nomichi — a small-group travel 
 - Trip and property management (create, edit, image uploads via Supabase Storage)
 
 **AI features (Gemini)**
-- Vibe check: rates how well a lead fits Nomichi's slow-travel philosophy
+- Vibe check: rates how well a lead fits the company's slow-travel philosophy
 - Call log summariser: one-sentence summary of where a lead stands
-- WhatsApp draft: writes the first outreach message in Nomichi's voice
+- WhatsApp draft: writes the first outreach message in the brand's voice
 
 ## Stack
 
@@ -30,7 +30,7 @@ A full-stack CRM and public booking portal for Nomichi — a small-group travel 
 | Styling | Tailwind CSS v4, custom design tokens |
 | Database | Supabase (Postgres + Auth + Storage) |
 | Validation | Zod (shared between client and server) |
-| AI | Gemini 2.0 Flash via REST API |
+| AI | Gemini 2.5 Flash (with Lite fallback) via REST API |
 | Deployment | Vercel |
 
 ## Getting started
@@ -138,4 +138,4 @@ supabase/
 
 ## Deployment
 
-See [prod.md](./prod.md) for full Vercel deployment instructions including environment variables, migration steps, and CI/CD setup.
+See [prod2.md](./prod2.md) for full Vercel deployment instructions including environment variables, migration steps, and post-deploy verification.

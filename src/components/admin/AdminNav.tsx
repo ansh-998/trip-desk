@@ -50,8 +50,9 @@ export function AdminNav() {
   return (
     <aside className="hidden lg:flex flex-col w-64 bg-white border-r border-sand/20 h-screen sticky top-0 shadow-[4px_0_24px_rgba(0,0,0,0.02)]">
       <div className="p-8">
-        <Link href="/admin" className="font-display font-bold text-2xl text-rust tracking-tighter">
-          NOMICHI
+        <Link href="/admin" className="flex items-center gap-3 font-display font-bold text-2xl text-rust tracking-tighter">
+          <img src="/images/logo.png" alt="Trip Desk" className="h-8 w-8 rounded" />
+          TRIP DESK
         </Link>
       </div>
       

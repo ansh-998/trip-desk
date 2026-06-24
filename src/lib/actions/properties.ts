@@ -2,7 +2,7 @@
 
 // Server actions for the properties CMS.
 // Properties represent accommodation (hotels, homestays, guesthouses) that
-// Nomichi partners with. Only team members can create or modify them.
+// Trip Desk partners with. Only team members can create or modify them.
 import { revalidatePath } from 'next/cache'
 import { createClient } from '@/lib/supabase/server'
 import { propertySchema, type PropertyInput } from '@/lib/validations/property'

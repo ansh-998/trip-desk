@@ -67,7 +67,7 @@ export default async function TripDetailPage({
                 N
               </div>
               <div>
-                <h2 className="text-lg font-semibold text-ink">Hosted by Nomichi</h2>
+                <h2 className="text-lg font-semibold text-ink">Hosted by Trip Desk</h2>
                 <p className="text-sm text-ink-muted">
                   Curated journeys · {trip.total_seats} seats · GST included
                 </p>

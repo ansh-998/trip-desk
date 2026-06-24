@@ -70,12 +70,12 @@ export default function SignupPage() {
     <main className="flex min-h-screen flex-col items-center justify-center bg-cream px-4 py-12">
       <div className="w-full max-w-md">
         <Link href="/" className="font-display font-bold text-2xl text-rust tracking-tighter mb-8 block text-center">
-          NOMICHI
+          TRIP DESK
         </Link>
         
         <Card>
           <CardHeader>
-            <h1 className="text-2xl font-display font-bold text-ink text-center">Join Nomichi</h1>
+            <h1 className="text-2xl font-display font-bold text-ink text-center">Join Trip Desk</h1>
             <p className="text-sm text-ink/50 text-center">Create an account to track your journey enquiries.</p>
           </CardHeader>
           <CardContent>
